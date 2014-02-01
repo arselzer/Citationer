@@ -1,0 +1,19 @@
+Usage:
+  init                      -- Initialize database of references.
+ -h | --help                -- Display help (this).
+ -s URL | --site URL        -- Get a citation for this site (default: MLA).
+ -l | --list                -- List all current citations.
+ -e | --export              -- Export the citations.
+ -j | --json                -- Set citation style to JSON.
+ -f [file] | --file [file]  -- Append citation to specific file.
+
+ Examples:
+
+ ~ Print the MLA citation for a page:
+ citationer -s en.wikipedia.org/wiki/Node.js
+ ~ Write the citation of a page into:
+ citationer --site http://en.wikipedia.org/wiki/JavaScript -f nonstandard.json
+ ~ Initialize a citations.json file:
+ citationer init
+ ~ List all references
+ citationer -l
