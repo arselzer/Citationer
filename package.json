@@ -1,0 +1,16 @@
+{
+  "name": "citationer",
+  "version": "0.0.1",
+  "description": "Manage Citation.js references",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "citation",
+    "reference",
+    "manager"
+  ],
+  "author": "Alexander Selzer <aselzer3@gmail.com>",
+  "license": "MIT"
+}
