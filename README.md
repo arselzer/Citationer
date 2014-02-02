@@ -34,3 +34,7 @@ Keep them simple, and local.
 If a citations.json is found in the current directory, Citationer
 will automatically append all citations to it before printing.
 Otherwise, everything will go to stdout.
+
+## License
+
+Citationer is available under the MIT license.

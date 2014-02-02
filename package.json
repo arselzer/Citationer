@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Manage Citation.js references",
   "main": "index.js",
+  "preferGlobal" : true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,6 +15,10 @@
     "reference",
     "manager"
   ],
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/AlexanderSelzer/Citationer.git"
+  },
   "author": "Alexander Selzer <aselzer3@gmail.com>",
   "license": "MIT",
   "dependencies" : {
