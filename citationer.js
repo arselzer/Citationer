@@ -107,7 +107,7 @@ else if (argv.e || argv.export) {
       if (typeof(exportfile) === "string")
         fs.writeFileSync(exportfile, output);
       else
-        fs.writeFileSync(__dirname + "/citations.txt", output);
+        fs.writeFileSync("./citations.txt", output);
     }
     catch (err) {
       throw err;
