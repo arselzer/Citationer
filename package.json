@@ -1,7 +1,7 @@
 {
   "name": "citationer",
-  "version": "0.1.2",
-  "description": "Manage Citation.js references",
+  "version": "0.2.0",
+  "description": "Manage and collect references, effectively",
   "main": "index.js",
   "preferGlobal": true,
   "scripts": {
