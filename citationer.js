@@ -33,7 +33,7 @@ else if (argv.s || argv.site) {
   var site = argv.s || argv.site;
   var URI;
 
-  if (!(/^http\:\/\//.test(site)))
+  if (!(/^https?\:\/\//.test(site)))
     URI = "http://" + site;
   else
     URI = site;
