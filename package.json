@@ -23,6 +23,6 @@
   "license": "MIT",
   "dependencies": {
     "optimist": "^0.6.1",
-    "citation.js": "^0.3.0"
+    "citation.js": "^0.3.0",
   }
 }

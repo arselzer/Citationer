@@ -1,19 +1,20 @@
-Usage:
-  init                      -- Initialize database of references.
- -h | --help                -- Display help (this).
- -s URL | --site URL        -- Get a citation for this site (default: MLA).
- -l | --list                -- List all current citations.
- -e | --export              -- Export the citations.
- -j | --json                -- Set citation style to JSON.
- -f [file] | --file [file]  -- Append citation to specific file.
 
- Examples:
+## Usage ##
 
- ~ Print the MLA citation for a page:
- citationer -s en.wikipedia.org/wiki/Node.js
- ~ Write the citation of a page into:
- citationer --site http://en.wikipedia.org/wiki/JavaScript -f nonstandard.json
- ~ Initialize a citations.json file:
- citationer init
- ~ List all references
- citationer -l
+|--------------------------------------|--------------------------------------------------|
+| citationer init                      |  Initialize database of references.              |
+| citationer -h|--help                 |  Display help (this).                            |
+| citationer [-s|--site]  url          |  Get a citation for this site (default: MLA).    |
+| citationer -l|--list                 |  List all current citations.                     |
+| citationer -e|--export               |  Export the citations.                           |
+| citationer -j|--json                 |  Set citation style to JSON.                     |
+| citationer -f|--file  file           |  Append citation to specific file.               |
+------------------------------------------------------------------------------------------|
+                                                                                          
+## Examples ##
+
+  * citationer blog.branches.io
+  * citationer -s en.wikipedia.org/wiki/Node.js
+  * citationer --site http://en.wikipedia.org/wiki/JavaScript -f file.json
+  * citationer -l --json
+
