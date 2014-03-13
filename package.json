@@ -3,26 +3,26 @@
   "version": "0.1.2",
   "description": "Manage Citation.js references",
   "main": "index.js",
-  "preferGlobal" : true,
+  "preferGlobal": true,
   "scripts": {
     "test": "./cli.js -s en.wikipedia.org/wiki/JavaScript"
   },
-  "bin" : {
-    "citationer" : "./cli.js"
+  "bin": {
+    "citationer": "./cli.js"
   },
   "keywords": [
     "citation",
     "reference",
     "manager"
   ],
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/AlexanderSelzer/Citationer.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlexanderSelzer/Citationer.git"
   },
   "author": "Alexander Selzer <aselzer3@gmail.com>",
   "license": "MIT",
-  "dependencies" : {
-    "optimist" : "0.6.x",
-    "citation.js" : "0.1.x" 
+  "dependencies": {
+    "optimist": "^0.6.1",
+    "citation.js": "^0.1.3"
   }
 }

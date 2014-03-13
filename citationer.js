@@ -14,7 +14,6 @@ if (fs.existsSync("citations.json"))
 if (argv.f || argv.file)
   referenceFile = argv.f || argv.file;
 
-
 if (process.argv[2] === "init") {
   if (!fs.existsSync("citations.json")) {
     try {
