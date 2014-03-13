@@ -41,7 +41,7 @@ else if (argv.s || argv.site) {
   citation.getReference(function(err, reference) {
     if (err) throw err;
     if (style === "MLA")
-      console.log(citation.convertToMla(reference));
+      console.log(Citation.convertToMla(reference));
     else if (style === "JSON")
       console.log(JSON.stringify(reference, null, 2));
     if (referenceFile) {
